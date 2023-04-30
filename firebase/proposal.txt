@@ -1,0 +1,69 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    Retriving and pushing CSV to Firebase.
+
+2. What real-world problem will your program address or help to solve?
+    While I was looking over the internet i noticed there wasn't any dump DB to test Firebase applications
+    there were many csv but lack of JSON DB, this program will cover retrieving and storing data into firebase
+    and additionally we will use dictionary to create JSON files that will be stored on Firebase.
+
+3. What will you learn from developing this program?
+    I will learn about convertion to JSON files, storage of NoSQL, I will learn more about firebase
+    which offers many tools and works well with
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)\
+    
+    CSV, JSON, firebase_admin, firebase
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+Yes, it will.
+
+6. Will you write test functions to test at least two of your program
+functions?
+
+Yes, I will.
+
+# Basic documentation
+https://thispointer.com/python-4-ways-to-print-items-of-a-dictionary-line-by-line/
+https://medium.com/theleanprogrammer/connecting-firebase-6102ef4eca08
+https://www.freecodecamp.org/news/how-to-get-started-with-firebase-using-python/
+
+# CSV convertion and JSONStrings
+https://pythonexamples.org/python-csv-to-json/
+https://www.geeksforgeeks.org/convert-csv-to-json-using-python/
+
+
+# Search on Firebase and the objects and method available to retrieve data
+https://www.section.io/engineering-education/custom-searching-and-filtering-in-firebase-database-in-android/
+https://firebase.google.com/docs/database/admin/retrieve-data
+
+# Firebase Dic, Python Dictionaries, and how to order dictionaries
+https://www.geeksforgeeks.org/ordereddict-in-python/
+https://www.geeksforgeeks.org/python-get-the-first-key-in-dictionary/
+https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/#:~:text=To%20get%20the%20type%20of%20a%20variable%20in%20Python%2C%20you,built%2Din%20type()%20function.&text=In%20Python%2C%20everything%20is%20an,class%20type%20of%20the%20object.
